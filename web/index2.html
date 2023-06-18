@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>會員管理系統</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>會員管理系統</h1>
+    <div class="members">
+      <h2>會員清單</h2>
+      <table id="memberTable">
+        <tr>
+          <th>編號</th>
+          <th>姓名</th>
+          <th>電子郵件</th>
+          <th>動作</th>
+        </tr>
+      </table>
+    </div>
+    <div class="add-member">
+      <h2>新增會員</h2>
+      <form id="addMemberForm" action="">
+        <input type="text" id="nameInput" placeholder="姓名" required>
+        <input type="email" id="emailInput" placeholder="電子郵件" required>
+        <button type="submit">新增</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
